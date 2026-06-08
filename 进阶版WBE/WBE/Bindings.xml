@@ -1,0 +1,21 @@
+<Bindings>
+    <Binding name="Show" header="WowBee">
+		if WowBeeHelperFrame:IsShown() then
+			WowBeeHelperFrame:Hide()
+		else
+			WowBeeHelperFrame:Show()
+		end
+    </Binding>
+    <Binding name="StartStop" header="WowBee">
+		if WowBee.AutoHelper.Start then
+			WowBeeHelper_SetAutoScript(nil);
+		else
+			WowBeeHelper_SetAutoScript(true);
+		end
+    </Binding>
+    <Binding name="Stop" header="WowBee">
+		if(WowBee.AutoHelper.Start)then
+			WowBeeHelper_SetAutoScript(nil);
+		end
+    </Binding>
+</Bindings>

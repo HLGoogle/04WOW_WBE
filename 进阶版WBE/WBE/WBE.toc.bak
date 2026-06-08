@@ -1,0 +1,14 @@
+﻿## Interface: 50300
+## Title: WowBee Core Library
+## Title-zhCN:@|cff00ff00WowBeeExtreme |cff0055FF核心库|r
+## Title-zhTW:@|cff00ff00WowBeeExtreme |cff0055FF核心庫|r
+## Version: 201307016 E06
+## Notes: |cffbc8f8fThe core library of WowBee. Do not disable this mod please.|r
+## Notes-zhCN: |cff00ff00WowBee|r                               automacro.tk                                            |cffbc8f8f这是魔蜂Extreme版的核心运行库，所有基于魔蜂函数的功能和插件都依赖该核心运行库。    |r|cffb70000请不要禁用该插件。|r
+## Notes-zhTW: |cff00ff00WowBee|r                               论坛已关闭                                             |cffbc8f8f這是魔蜂Extreme版的核心運行庫，所有基於魔蜂函數的功能和插件都依賴該核心運行庫。    |r|cffb70000請不要禁用該插件。|r
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: WowBeeConfig,WowBeeScript,WowBeeHelper
+## SavedVariablesPerCharacter:WowBeeScriptPer,WowBeeHelperPer
+WowBee.xml
+Class\Class.xml

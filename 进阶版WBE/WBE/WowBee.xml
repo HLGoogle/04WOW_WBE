@@ -1,0 +1,29 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
+	<Script file="Locales\zhCN.lua" />
+	<Script file="Locales\zhTW.lua" />
+	<Script file="Library\LibRangeCheck-2.0.lua"/>
+	<Script file="Library\DropDownMenu-1.0.lua" />
+	<Script file="Library\Serializer-3.0.lua" />
+	<Script file="Library\FAIAP.lua" />
+	<Script file="Library\Frame.lua" />
+	<Script file="Localization.lua" />
+	<Script file="WowBee.Main.lua"/>
+	<Script file="WowBee.Script.lua"/>
+	<Script file="WowBee.Spell.lua" />
+	<Script file="WowBee.Functions.lua" />
+	<Script file="WowBee.SpellFunctions.lua" />
+	<Script file="MinimapButton-2.0" />
+	<Frame>
+		<Scripts>
+			<OnLoad>
+				WowBee_OnLoad(self);
+			</OnLoad>
+			<OnEvent>
+				WowBee_OnEvent(self,event,...);
+			</OnEvent>
+			<OnUpdate>
+				WowBee_OnUpdate(arg1);
+			</OnUpdate>
+		</Scripts>
+	</Frame>
+</Ui>
